@@ -16,4 +16,4 @@ services:
       - key: PUBLIC_URL 
         sync: false
       - key: TG_START_MESG 
-        sync: Hello
+        value: Hello
