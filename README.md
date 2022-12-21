@@ -11,6 +11,11 @@ should include the protocol, e.g. `https://example.com`.
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
+### Deploy To Render (Paid)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?)
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link/tree/Merging)
 
 
