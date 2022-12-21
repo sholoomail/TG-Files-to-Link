@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: sholootgfiletolink
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m tgfilestream
+    repo: https://github.com/sholoomail/TG-Files-to-Link.git
+    branch: Merging
+    envVars:
+      - key: TG_BOT_FATHER_TOKEN 
+        sync: false
+      - key: TG_API_ID 
+        sync: false
+      - key: TG_API_HASH 
+        sync: false
+      - key: PUBLIC_URL 
+        sync: false
+      - key: TG_START_MESG 
+        sync: Hello
